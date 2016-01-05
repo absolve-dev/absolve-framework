@@ -9,4 +9,7 @@
   // post types
   require("functions/post-types.php");
 
+  // css and js init
+  require("functions/css-js.php");
+
 ?>
