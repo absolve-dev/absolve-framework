@@ -20,6 +20,10 @@
       wp_enqueue_script("bootstrap");
       wp_register_style("bootstrap", "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
       wp_enqueue_style("bootstrap");
+
+      // base style include
+      wp_register_style('base-style', get_template_directory_uri() . '/style.css');
+			wp_enqueue_style('base-style');
     }
   }
 
